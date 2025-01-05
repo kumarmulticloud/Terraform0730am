@@ -4,6 +4,6 @@ resource "aws_instance" "dev" {
   key_name = "multicloud-keypair"
   availability_zone = "ap-south-1a"
   tags = {
-    Name = "StateFileExample"
+    Name = "StateFile"
   }
 }
