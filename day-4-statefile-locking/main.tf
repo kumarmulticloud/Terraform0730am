@@ -6,5 +6,4 @@ resource "aws_instance" "dev" {
   tags = {
     Name = "statefile-locking"
   }
-
 }
