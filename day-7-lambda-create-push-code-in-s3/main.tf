@@ -54,7 +54,7 @@ resource "aws_lambda_function" "my_lambda" {
   handler          = "lambda_function.lambda_handler" # Replace with your function handler
   s3_bucket        = aws_s3_bucket.lambda_bucket.id # calling code from s3 bucket 
   s3_key           = aws_s3_object.lambda_code.key # inside this folder
-  timeout          = 10
+  timeout          = 300
   memory_size      = 128
 
   environment {
