@@ -10,3 +10,9 @@
 
 #documents
 *.doc
+
+# Lambda directories
+builds/
+__pycache__/
+
+*.log
